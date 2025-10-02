@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   // Configuration pour GitHub Pages - base URL pour le déploiement (dépôt personnalisé)
-  base: './',
+  base: '/',
   plugins: [react()],
   build: {
     // Configuration pour éviter les problèmes de MIME type sur GitHub Pages
